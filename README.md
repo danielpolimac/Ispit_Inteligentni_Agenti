@@ -25,9 +25,7 @@ For more detailed explanation of financial positions please check this Wikipedia
 https://en.wikipedia.org/wiki/Position_(finance)
 
 The Agent (A2C) is based on actor critic architecture using Kronecker-factored Trust Region, which was developed by researchers at the University of Toronto and New York University, and implemented in Open Baseline library by the OpenAI team. The algorithm combines a few key ideas:
-An updating scheme that operates on fixed-length segments of experience (say, 20 timesteps) and uses these segments to compute estimators of the returns and advantage function.
-Architectures that share layers between the policy and value function.
-Asynchronous updates.
+An updating scheme that operates on fixed-length segments of experience (say, 20 timesteps) and uses these segments to compute estimators of the returns and advantage function, architectures that share layers between the policy and value function, and asynchronous updates.
 
 ## Dataset
 The data used in this experiment comes from Huge Stock Market Dataset, hosted on Kaggle, as a courtesy of Boris Marjanovic. The dataset consists of individual stocks and ETFs. For the purpose of this experiment I've chosen to work with stock of Tesla, an electric automotive company, covering the span of their business activity between 2010 and 2017 Dataset has the following columns: Date,Open,High,Low,Close,Volume. Complete dataset can be found following this link:
