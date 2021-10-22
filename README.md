@@ -79,7 +79,7 @@ plt.show()
 ![alt-text](https://github.com/AminHP/gym-anytrading/raw/master/docs/output_14_1.png)
 
 
-## Analyze the agent's trading decisions using quantstats
+## Analyze the agent's trading decisions using Quantstats
 
 QuantStats is a Python library that performs portfolio profiling, allowing quants and portfolio managers to understand their performance better by providing them with in-depth analytics and risk metrics. For the purpose of examining  agent's trading decision I used QuantStats' reports module in order to generate metrics reports, batch plotting, and creating tear sheets that can be saved as an HTML file.
 
