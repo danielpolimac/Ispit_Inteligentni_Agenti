@@ -28,7 +28,7 @@ The Agent (A2C) is based on actor critic architecture using Kronecker-factored T
 An updating scheme that operates on fixed-length segments of experience and uses these segments to compute estimators of the returns and advantage function, architectures that share layers between the policy and value function, and asynchronous updates.
 
 ## Dataset
-The data used in this experiment comes from Huge Stock Market Dataset, hosted on Kaggle as a courtesy of Boris Marjanovic. The dataset consists of individual stocks and ETFs. For the purpose of this experiment I've chosen to work with stock of Tesla, an electric automotive company, covering the span of their business activity between 2010 and 2017 Dataset has the following columns: Date, Open, High, Low, Close, and Volume. Complete dataset can be found following this link:
+The data used in this experiment comes from Huge Stock Market Dataset, hosted on Kaggle as a courtesy of Boris Marjanovic. The dataset consists of individual stocks and ETFs. For the purpose of this experiment I've chosen to work with stock of Tesla, an electric automotive company, covering the span of their business activity between 2010 and 2017. Dataset has the following columns: Date, Open, High, Low, Close, and Volume. Complete dataset can be found following this link:
 https://www.kaggle.com/borismarjanovic/price-volume-data-for-all-us-stocks-etfs
 
 ## Usage
