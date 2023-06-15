@@ -1,5 +1,4 @@
-## Training a trading agent using reinforcement learning
-
+## Training a trading agent using A2C
 ![alt text](https://www.fairobserver.com/wp-content/uploads/2020/03/markets-2.jpg)
 
 ## Installation
