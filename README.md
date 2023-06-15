@@ -1,4 +1,4 @@
-## Training a trading agent using A2C
+## Stock trading using A2C agent
 ![alt text](https://www.fairobserver.com/wp-content/uploads/2020/03/markets-2.jpg)
 
 ## Installation
